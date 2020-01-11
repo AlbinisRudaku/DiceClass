@@ -6,6 +6,7 @@ The class will likely have just one method, throw(), and no atributes.
 Finally, write a controller that lets a user throw two dice repeatedly. -
 
 Zgjidhja:
+
 Zgjidhja e këtij problemi është bërë në mënyrë deduktive, pasi është menduar gjenerimi i një numri të rastësishëm mund të bëhet me anë të metodës Math.Random() që është pjesë e klasës Math (Pjesë e java.lang , nuk ka nevoj të importohet) dhe mbasi kërkesa e detyrës është që progarami të afishohet përmes dritareve grafike është nënkuptuar nevoja e importimit të paketës javax.swing  e cila përmban në vete klasën JoptionPane. Struktura e programit është bërë në bazë të arkitekturës MVC (Model-View-Controller) ku e kemi bërë ndarjen në katër klasë të ndryshme të cilat jan lidhur me njëra tjetrën me anë të klasës që përmban metodën Main.
 Për të shkruar secilën klasë janë përdorur dy rrethina integruese (Jgrasp dhe IntelliJ).
 
