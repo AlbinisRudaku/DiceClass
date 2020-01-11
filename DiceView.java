@@ -1,10 +1,11 @@
+/** We needto import this package in order for us to use JOptionPane class */
 import javax.swing.*;
 
-/** Klasa DiceView bën afishimin e rezultatit me anë të dritareve grafike */
+/** This class displays the result through a JOptionPane dialog window */
 public class DiceView
 {
     int check = 0;
-    /** printDiceValue përdorë metodën showMessageDialog  të JOptionPane për të bërë afishimin e rezultatit të fituar */
+    /** PrintDiceValues is a method which uses the other method called showMessageDialog, to give as an output the calculated result */
     public void printDiceValues(int firstValue, int secondValue)
     {
         JOptionPane.showMessageDialog(null, "Dice One: " + firstValue + ", Dice Two: " + secondValue);
