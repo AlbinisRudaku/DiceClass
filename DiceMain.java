@@ -1,7 +1,7 @@
-/** Klasa DieClass përdoret për të bërë egzekutimin e programit */
+/** This class is used to run the written code on the three other classes */
 public class DiceMain
 {
-    /** Metoda main bënë egzekutimin programit duke i instancuar klasët e tjera */
+    /** The main method executes the program while instancing the other related classes */
     public static void main(String[] args)
     {
         DiceView diceView = new DiceView();
