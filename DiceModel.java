@@ -1,10 +1,9 @@
-/** Klasa DieClass bën hedhjen e zarit në mënyrë të rëndomtë */
+/** This is the model class which generates a random number from one to six */
 public class DiceModel
 {
-    /** Metoda throwDice() hedh zarin në mënyrë të rëndomt
-     *  duke përdorur Math.random() */
+    /** The throwDice() method generates a random number using Math.random() */
     public int throwDice()
-    {
+    {       
         return (int)((Math.random() * 6) + 1);
     }
 }
